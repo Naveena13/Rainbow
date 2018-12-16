@@ -75,39 +75,7 @@ int sort(char **args)
    printf("\n%d",c[i]);
  }
   
-  /* printf("%s",args[2]); 
-    int x=2;
-//    printf("%d",pow(x,2));
-    int sum=0;
-   int len=strlen(a);
-   printf("\n%d",len);
-  int temp=1;
-  for(int i=len-1,j=0;i>=0,j<len;i--,j++)
-   {
-       for(int k=0;k<j;k++)
-       {
-         temp=temp*10;
-       }
-      sum=sum+(c[i]*(temp));
-  //  printf("%d\n",sum);
-   temp=1;
-   }
-    printf("%d",sum);
-   //printf("%s",a);
-   if(args[1]==NULL)
-   {
-      fprintf(stderr, "lsh: expected argument to \"cd\"\n");
-   }
-   else
-   {
-        for(int i=0;i<3;i++)
-         {
-//          printf("hello\n");
-  //        printf("%s",args[1]);
-         }
-    return 1;
-   }*/
-}
+  
     
   int palindrome(char **args)
 {
@@ -330,17 +298,6 @@ lsh_loop();
 }
 
  
-//#//include <sys/wait.h>
-//#include <unistd.h>
-//#include <stdlib.h>
-//#include <stdio.h>
-//#include <string.h>
-//#include<math.h>
 
-
-//int lsh_cd(char **args);
-//int lsh_help(char **args);
-//int lsh_exit(char **args);
-//int sort(char **args);
 
 
